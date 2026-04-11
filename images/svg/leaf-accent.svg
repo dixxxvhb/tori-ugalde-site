@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Main stem curving diagonally from bottom-left to top-right -->
+  <path d="M12,108 C18,88 26,72 38,58 C50,44 64,34 80,22 C92,13 104,8 112,6"
+        stroke="#8B6F47" stroke-width="1.2" opacity="0.25" fill="none" stroke-linecap="round"/>
+
+  <!-- Alternating leaves along stem — left side -->
+  <ellipse cx="22" cy="88" rx="7" ry="3" fill="#2D5A3D" opacity="0.22" transform="rotate(-55,22,88)"/>
+  <ellipse cx="40" cy="66" rx="7" ry="3.2" fill="#2D5A3D" opacity="0.2" transform="rotate(-42,40,66)"/>
+  <ellipse cx="60" cy="46" rx="6.5" ry="3" fill="#2D5A3D" opacity="0.22" transform="rotate(-30,60,46)"/>
+  <ellipse cx="82" cy="28" rx="6.5" ry="3" fill="#2D5A3D" opacity="0.2" transform="rotate(-18,82,28)"/>
+  <ellipse cx="102" cy="14" rx="5.5" ry="2.5" fill="#2D5A3D" opacity="0.18" transform="rotate(-10,102,14)"/>
+
+  <!-- Alternating leaves — right side (offset) -->
+  <ellipse cx="30" cy="78" rx="7" ry="3" fill="#8B6F47" opacity="0.2" transform="rotate(-48,30,78)"/>
+  <ellipse cx="50" cy="57" rx="7" ry="3" fill="#8B6F47" opacity="0.18" transform="rotate(-36,50,57)"/>
+  <ellipse cx="71" cy="38" rx="6.5" ry="3" fill="#8B6F47" opacity="0.2" transform="rotate(-24,71,38)"/>
+  <ellipse cx="93" cy="20" rx="6" ry="2.8" fill="#8B6F47" opacity="0.18" transform="rotate(-14,93,20)"/>
+
+  <!-- Leaf vein lines (center ribs) — subtle -->
+  <line x1="19" y1="91" x2="25" y2="85" stroke="#8B6F47" stroke-width="0.5" opacity="0.2"/>
+  <line x1="37" y1="69" x2="43" y2="63" stroke="#8B6F47" stroke-width="0.5" opacity="0.2"/>
+  <line x1="57" y1="49" x2="63" y2="43" stroke="#8B6F47" stroke-width="0.5" opacity="0.2"/>
+  <line x1="79" y1="31" x2="85" y2="25" stroke="#8B6F47" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Small bud tips at stem end -->
+  <ellipse cx="110" cy="8" rx="2" ry="3.5" fill="#2D5A3D" opacity="0.22" transform="rotate(-10,110,8)"/>
+
+  <!-- Tiny dot at base -->
+  <circle cx="12" cy="110" r="1.5" fill="#8B6F47" opacity="0.2"/>
+</svg>
