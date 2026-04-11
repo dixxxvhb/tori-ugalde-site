@@ -3,8 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tori Ugalde — Dancer, Choreographer &amp; Teacher</title>
-  <meta name="description" content="Tori Ugalde — competitive dancer, choreographer, and teacher. 3 seasons at Celebration Arts Academy. 1st Overall StarQuest, 1st Place ASH Nationals, 20 competition pieces across contemporary, lyrical, jazz, and more.">
+  <title>Tori Ugalde — Dancer, Choreographer, Teacher</title>
+  <meta name="description" content="Tori Ugalde — dancer, choreographer, teacher, and costume designer. 1st Overall StarQuest, ASH Nationals champion, 20 competition pieces across 3 seasons.">
+
+  <meta property="og:title" content="Tori Ugalde — Dancer, Choreographer, Teacher">
+  <meta property="og:description" content="Dancer, choreographer, and teacher based in Orlando, FL.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/photos/bio-portrait.jpg">
 
   <link rel="preload" href="images/hero/hero-loop.mp4" as="video" type="video/mp4">
 
@@ -17,8 +22,8 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="nav" aria-label="Main navigation">
-    <span class="nav-name">Tori Ugalde</span>
+  <nav class="nav">
+    <a href="#" class="nav-name">tori ugalde</a>
     <ul class="nav-links">
       <li><a href="#bio">About</a></li>
       <li><a href="#work">Work</a></li>
@@ -28,216 +33,128 @@
     </ul>
   </nav>
 
-  <!-- Hero -->
-  <section class="hero" aria-label="Hero">
-    <video
-      class="hero-video"
-      src="images/hero/hero-loop.mp4"
-      autoplay
-      muted
-      loop
-      playsinline
-      aria-hidden="true"
-    ></video>
-
-    <div class="hero-overlay" aria-hidden="true"></div>
-
-    <div class="hero-corners" aria-hidden="true">
+  <!-- Hero — asymmetric, bottom-left aligned -->
+  <section class="hero">
+    <video class="hero-video" autoplay muted loop playsinline preload="auto">
+      <source src="images/hero/hero-loop.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="hero-corners">
       <img class="hero-corner hero-corner--tl" src="images/svg/leaf-accent.svg" alt="">
       <img class="hero-corner hero-corner--tr" src="images/svg/leaf-accent.svg" alt="">
-      <img class="hero-corner hero-corner--bl" src="images/svg/leaf-accent.svg" alt="">
       <img class="hero-corner hero-corner--br" src="images/svg/leaf-accent.svg" alt="">
     </div>
-
     <div class="hero-content">
+      <div class="hero-line"></div>
       <h1 class="hero-name">Tori Ugalde</h1>
       <p class="hero-subtitle">Dancer &middot; Choreographer &middot; Teacher</p>
     </div>
-
-    <div class="hero-scroll" aria-hidden="true">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-        <path d="M12 5v14M5 12l7 7 7-7"/>
-      </svg>
-    </div>
   </section>
 
-  <!-- Bio -->
-  <section id="bio" class="section bio reveal">
-    <div class="container">
-      <h2 class="section-title">About Tori</h2>
-      <img class="section-divider" src="images/svg/botanical-divider.svg" alt="">
+  <!-- Bio — editorial with pull quote -->
+  <section id="bio" class="bio reveal">
+    <div class="bio-inner">
+      <blockquote class="bio-pullquote">
+        Performer, maker, teacher — she brings that full range into every room she enters.
+      </blockquote>
 
-      <div class="bio-inner">
-        <img
-          class="bio-photo"
-          src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 3'%3E%3C/svg%3E"
-          data-src="images/photos/bio-portrait.jpg"
-          alt="Tori Ugalde — portrait"
-          loading="lazy"
-        >
+      <div class="bio-content">
+        <img class="bio-photo" src="images/photos/bio-portrait.jpg" alt="Tori Ugalde">
         <div class="bio-text">
-          <p>Tori Ugalde is a competitive dancer, emerging choreographer, and teacher based in Central Florida. Trained across three seasons at Celebration Arts Academy under director and choreographer Dixon Van Hoozer-Bowles, Tori built a versatile performance vocabulary spanning contemporary, lyrical, jazz, musical theatre, and hip hop. Her command of artistry and stage presence earned her some of the most recognized titles in the regional circuit, including 1st Overall at StarQuest and 1st Place at ASH Nationals — across 20 competition pieces in three seasons.</p>
-          <p>Beyond competing, Tori has stepped fully into the creative and educational side of the art form. She teaches and choreographs, bringing the same precision and intentionality that shaped her own training into the work she makes with other dancers. She also designs and creates dance costumes, merging technical craft with visual storytelling. Tori brings that full range — performer, maker, teacher — into every room she enters.</p>
+          <p>Tori Ugalde is a dancer, choreographer, and teacher based in Orlando, Florida. Trained across three seasons at Celebration Arts Academy under the direction of Dixon Van Hoozer-Bowles, she built a versatile performance vocabulary spanning contemporary, lyrical, jazz, musical theatre, and hip hop — earning 1st Overall at StarQuest and 1st Place at ASH Nationals across 20 competition pieces.</p>
+          <p>Beyond competing, Tori has stepped fully into the creative and educational side of the art form. She choreographs and teaches with the same precision and intentionality that shaped her own training. She also designs and creates dance costumes, merging technical craft with visual storytelling.</p>
+          <img class="bio-divider" src="images/svg/botanical-divider.svg" alt="">
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Performance Reel -->
-  <section id="reel" class="section reel reveal">
-    <div class="container">
-      <h2 class="section-title">Performance Reel</h2>
-      <img class="section-divider" src="images/svg/botanical-divider.svg" alt="">
-
+  <!-- Reel — dark green background -->
+  <section id="reel" class="reel reveal">
+    <div style="max-width: 900px; margin: 0 auto;">
+      <h2 class="section-title section-title--center">Showcase Reel</h2>
       <div class="reel-embed">
-        <div class="yt-lazy" data-video-id="YOUTUBE_VIDEO_ID" aria-label="Play performance reel"></div>
+        <div class="yt-lazy" data-video-id="YOUTUBE_VIDEO_ID" style="position:absolute;top:0;left:0;width:100%;height:100%;"></div>
       </div>
     </div>
   </section>
 
-  <!-- Featured Work -->
-  <section id="work" class="section work reveal">
-    <div class="container">
-      <h2 class="section-title">Featured Work</h2>
-      <img class="section-divider" src="images/svg/botanical-divider.svg" alt="">
+  <!-- Featured Work — editorial alternating rows -->
+  <section id="work" class="work reveal">
+    <div class="work-header">
+      <h2 class="section-title section-title--left">Selected Work</h2>
+    </div>
 
-      <div class="work-grid">
+    <div class="work-piece">
+      <img class="work-piece-img" data-src="images/photos/tokyo-sunrise-1.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 10'%3E%3C/svg%3E" alt="Tokyo Sunrise">
+      <div class="work-piece-text">
+        <h3 class="work-piece-name">Tokyo Sunrise</h3>
+        <p class="work-piece-awards">1st Overall StarQuest &middot; Choreography Award (Groove) &middot; Double Platinum Advanced (Showstopper)</p>
+        <span class="work-piece-season">Season 3</span>
+      </div>
+    </div>
 
-        <article class="work-card">
-          <img
-            class="work-card-img"
-            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 3'%3E%3C/svg%3E"
-            data-src="images/photos/tokyo-sunrise-1.jpg"
-            alt="Tokyo Sunrise"
-            loading="lazy"
-          >
-          <div class="work-card-body">
-            <h3 class="work-card-title">Tokyo Sunrise</h3>
-            <p class="work-card-awards">1st Overall StarQuest &middot; Choreography Award &middot; Double Platinum Advanced</p>
-          </div>
-        </article>
+    <div class="work-piece">
+      <img class="work-piece-img" data-src="images/photos/be-glad-1.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 10'%3E%3C/svg%3E" alt="Be Glad">
+      <div class="work-piece-text">
+        <h3 class="work-piece-name">Be Glad</h3>
+        <p class="work-piece-awards">Diamond (Groove) &middot; Platinum (StarQuest)</p>
+        <span class="work-piece-season">Season 3</span>
+      </div>
+    </div>
 
-        <article class="work-card">
-          <img
-            class="work-card-img"
-            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 3'%3E%3C/svg%3E"
-            data-src="images/photos/be-glad-1.jpg"
-            alt="Be Glad"
-            loading="lazy"
-          >
-          <div class="work-card-body">
-            <h3 class="work-card-title">Be Glad</h3>
-            <p class="work-card-awards">Diamond (Groove) &middot; Platinum (StarQuest)</p>
-          </div>
-        </article>
+    <div class="work-piece">
+      <img class="work-piece-img" data-src="images/photos/strange-thunder-1.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 10'%3E%3C/svg%3E" alt="Strange Thunder">
+      <div class="work-piece-text">
+        <h3 class="work-piece-name">Strange Thunder</h3>
+        <p class="work-piece-awards">Entertainment Pick (ASH) &middot; Diamond (Groove) &middot; 1st in Category</p>
+        <span class="work-piece-season">Season 3</span>
+      </div>
+    </div>
 
-        <article class="work-card">
-          <img
-            class="work-card-img"
-            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 3'%3E%3C/svg%3E"
-            data-src="images/photos/strange-thunder-1.jpg"
-            alt="Strange Thunder"
-            loading="lazy"
-          >
-          <div class="work-card-body">
-            <h3 class="work-card-title">Strange Thunder</h3>
-            <p class="work-card-awards">Entertainment Pick (ASH) &middot; Diamond (Groove) &middot; 1st in Category</p>
-          </div>
-        </article>
-
-        <article class="work-card">
-          <img
-            class="work-card-img"
-            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 3'%3E%3C/svg%3E"
-            data-src="images/photos/the-moment-1.jpg"
-            alt="The Moment I Said It"
-            loading="lazy"
-          >
-          <div class="work-card-body">
-            <h3 class="work-card-title">The Moment I Said It</h3>
-            <p class="work-card-awards">1st Place ASH Nationals &middot; 5th Overall (Groove)</p>
-          </div>
-        </article>
-
+    <div class="work-piece">
+      <img class="work-piece-img" data-src="images/photos/the-moment-1.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 10'%3E%3C/svg%3E" alt="The Moment I Said It">
+      <div class="work-piece-text">
+        <h3 class="work-piece-name">The Moment I Said It</h3>
+        <p class="work-piece-awards">1st Place ASH Nationals &middot; 5th Overall (Groove)</p>
+        <span class="work-piece-season">Season 3</span>
       </div>
     </div>
   </section>
 
   <!-- Awards -->
-  <section id="awards" class="section awards reveal">
-    <div class="container">
-      <h2 class="section-title">Awards &amp; Recognition</h2>
-      <img class="section-divider" src="images/svg/botanical-divider.svg" alt="">
-
+  <section id="awards" class="awards reveal">
+    <div class="awards-inner">
+      <h2 class="section-title section-title--left">Awards</h2>
       <ul class="awards-list">
-        <li>
-          <span class="award-name">1st Overall StarQuest</span>
-          <span class="award-piece">Tokyo Sunrise</span>
-        </li>
-        <li>
-          <span class="award-name">1st Place ASH Nationals</span>
-          <span class="award-piece">The Moment I Said It</span>
-        </li>
-        <li>
-          <span class="award-name">Choreography Award (Groove)</span>
-          <span class="award-piece">Tokyo Sunrise</span>
-        </li>
-        <li>
-          <span class="award-name">Entertainment Pick (ASH)</span>
-          <span class="award-piece">Strange Thunder</span>
-        </li>
-        <li>
-          <span class="award-name">Diamond &mdash; Groove 2024</span>
-          <span class="award-piece">Multiple pieces</span>
-        </li>
-        <li>
-          <span class="award-name">Diamond Platinum (Showstopper)</span>
-          <span class="award-piece">Dormi Reveille</span>
-        </li>
-        <li>
-          <span class="award-name">Double Platinum Advanced</span>
-          <span class="award-piece">Tokyo Sunrise</span>
-        </li>
-        <li>
-          <span class="award-name">Platinum Plus StarQuest</span>
-          <span class="award-piece">Diva's Live</span>
-        </li>
-        <li>
-          <span class="award-name">Choreography Nomination</span>
-          <span class="award-piece">Hero</span>
-        </li>
-        <li>
-          <span class="award-name">97/100 Score</span>
-          <span class="award-piece">Quit (2020 Camp)</span>
-        </li>
-        <li>
-          <span class="award-name">20 Competition Pieces</span>
-          <span class="award-piece">3 Seasons &middot; 2020&ndash;2024</span>
-        </li>
+        <li><span class="award-name">1st Overall StarQuest</span><span class="award-piece">Tokyo Sunrise</span></li>
+        <li><span class="award-name">1st Place ASH Nationals</span><span class="award-piece">The Moment I Said It</span></li>
+        <li><span class="award-name">Choreography Award (Groove)</span><span class="award-piece">Tokyo Sunrise</span></li>
+        <li><span class="award-name">Entertainment Pick (ASH)</span><span class="award-piece">Strange Thunder</span></li>
+        <li><span class="award-name">Diamond — Groove 2024</span><span class="award-piece">Multiple pieces</span></li>
+        <li><span class="award-name">Diamond Platinum (Showstopper)</span><span class="award-piece">Dormi Reveille</span></li>
+        <li><span class="award-name">Double Platinum Advanced</span><span class="award-piece">Tokyo Sunrise</span></li>
+        <li><span class="award-name">Platinum Plus StarQuest</span><span class="award-piece">Diva's Live</span></li>
+        <li><span class="award-name">Choreography Nomination</span><span class="award-piece">Hero</span></li>
+        <li><span class="award-name">97/100 Score</span><span class="award-piece">Quit (2020 Camp)</span></li>
+        <li><span class="award-name">20 Competition Pieces</span><span class="award-piece">3 Seasons &middot; 2020-2024</span></li>
       </ul>
     </div>
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="section reveal">
-    <div class="container" style="text-align:center;">
-      <h2 class="section-title">Contact</h2>
-      <img class="section-divider" src="images/svg/botanical-divider.svg" alt="">
-      <p style="color:var(--text-secondary);font-size:1rem;max-width:480px;margin:0 auto;">
-        For booking, collaboration, choreography, or general inquiries, reach out directly.
-      </p>
-      <p style="margin-top:1.5rem;">
-        <a href="mailto:email@example.com" style="font-family:var(--font-display);font-size:1.2rem;letter-spacing:0.05em;color:var(--lavender-dark);">email@example.com</a>
-      </p>
-    </div>
+  <section id="contact" class="contact reveal">
+    <h2 class="section-title section-title--center">Get in Touch</h2>
+    <p class="contact-text">For choreography, teaching, costume design, or collaboration inquiries.</p>
+    <a href="mailto:email@example.com" class="contact-email">email@example.com</a>
   </section>
 
-  <!-- Footer -->
+  <!-- Footer — thin bar -->
   <footer class="footer">
-    <p class="footer-name">Tori Ugalde</p>
-    <nav class="footer-links" aria-label="Footer navigation">
+    <span class="footer-name">tori ugalde</span>
+    <nav class="footer-links">
       <a href="mailto:email@example.com">Email</a>
-      <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
       <a href="gallery.html">Gallery</a>
     </nav>
     <p class="footer-credit">Trained under Dixon Van Hoozer-Bowles at Celebration Arts Academy</p>
