@@ -1,0 +1,49 @@
+{
+ "goals": [
+  {
+   "id": "outside-piece",
+   "text": "Set a competition piece at a studio outside DWD and CAA",
+   "how": "Next step: send five notes from Start here."
+  },
+  {
+   "id": "own-group",
+   "text": "Set a group piece from your own concept",
+   "how": "Next step: the vision board. Song, costumes, formations, one page."
+  },
+  {
+   "id": "masterclass",
+   "text": "Teach a master class at a new studio",
+   "how": "Next step: offer one in every teaching note."
+  },
+  {
+   "id": "reel",
+   "text": "Two reels: competition work and class combos",
+   "how": "Next step: film Sadie Sadie and On Broadway clean, front and center."
+  },
+  {
+   "id": "post",
+   "text": "Post your choreography on @tori.udance",
+   "how": "Your words: \"i'm gonna start posting my Choreo on my dance account.\""
+  },
+  {
+   "id": "music",
+   "text": "Edit your own music",
+   "how": "Next step: one cut with Dixon, then one on your own."
+  },
+  {
+   "id": "photos",
+   "text": "Professional photos and a headshot",
+   "how": "Next step: book a shoot, one dance look and one teaching look."
+  },
+  {
+   "id": "quotes",
+   "text": "Three quotes from parents or studio owners",
+   "how": "Next step: ask one family this week."
+  },
+  {
+   "id": "broadway",
+   "text": "Choreograph on Broadway",
+   "how": "Dixon: \"Youre gonna choreograph on broadway one day. I can feel it.\""
+  }
+ ]
+}

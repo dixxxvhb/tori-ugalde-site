@@ -1,204 +1,188 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tori Ugalde — Choreographer, Teacher, Costume Designer</title>
-  <meta name="description" content="Tori Ugalde — choreographer, dance teacher, and costume designer in Orlando, FL. Available for competition choreography, master classes, and custom costumes.">
-  <meta name="theme-color" content="#1A1F1C">
-
-  <meta property="og:title" content="Tori Ugalde — Choreographer, Teacher, Costume Designer">
-  <meta property="og:description" content="Choreographer, teacher, and costume designer. Available for hire.">
-  <meta property="og:type" content="website">
-
-  <link rel="preload" href="images/hero/hero-loop.mp4" as="video" type="video/mp4">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="css/style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tori Ugalde</title>
+<meta name="description" content="Tori Ugalde, choreographer, teacher and dancer in Orlando, Florida. Competition choreography, classes, master classes and costumes.">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="Tori Ugalde">
+<meta property="og:description" content="Choreographer, teacher and dancer. Orlando, Florida.">
+<meta property="og:image" content="brand/og-image-1200x630.png">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="icon" href="brand/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="brand/apple-touch-icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Outfit:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
 </head>
 <body>
 
-  <!-- Nav -->
-  <nav class="nav">
-    <a href="#" class="nav-name">Tori Ugalde</a>
-    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
-      <span class="nav-toggle-bar"></span>
-      <span class="nav-toggle-bar"></span>
-      <span class="nav-toggle-bar"></span>
-    </button>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#reel">Reel</a></li>
-      <li><a href="gallery.html">Gallery</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+<header class="site-header">
+  <div class="wrap">
+    <a class="wordmark" href="./">tori ugalde</a>
+    <nav class="nav" aria-label="Main">
+      <a href="#work">Work</a>
+      <a href="media.html">Media</a>
+      <a href="resume.html">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
 
-  <!-- Hero — two CTAs: explore + book -->
+<main>
   <section class="hero">
-    <video class="hero-video" autoplay muted loop playsinline preload="auto">
-      <source src="images/hero/hero-loop.mp4" type="video/mp4">
-    </video>
-    <div class="hero-overlay"></div>
-    <div class="hero-content">
-      <p class="hero-label">Choreographer &middot; Teacher &middot; Costume Designer</p>
-      <h1 class="hero-name">Tori<br>Ugalde</h1>
-      <p class="hero-tagline">Award-winning dancer turned choreographer, teacher, and costume designer. I help competitive dancers build routines that place — and I design the costumes to match.</p>
-      <div class="hero-ctas">
-        <a href="#contact" class="hero-cta hero-cta--primary">Book Me</a>
-        <a href="#reel" class="hero-cta hero-cta--secondary">See My Work</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- About — short, identity-first, then credentials -->
-  <section id="about" class="about reveal">
-    <img class="about-image" src="images/photos/bio-portrait.jpg" alt="Tori Ugalde">
-    <div class="about-text">
-      <p class="label">About</p>
-      <h2 class="heading">I grew up in competition dance. Now I build the dancers who win.</h2>
-      <p>Three seasons at Celebration Arts Academy under director Dixon Van Hoozer-Bowles. 20 competition pieces across contemporary, lyrical, jazz, musical theatre, and hip hop. 1st Overall at StarQuest. 1st Place at ASH Nationals.</p>
-      <p>That background is what I bring to your studio, your dancers, and your stage. I choreograph pieces that compete at the highest level, I teach technique that builds real artists, and I design costumes that complete the vision.</p>
-      <a href="#contact" class="inline-cta">Let's work together</a>
-    </div>
-  </section>
-
-  <!-- Services — the actual sell -->
-  <section id="services" class="services reveal">
-    <div class="services-inner">
-      <p class="label">What I Offer</p>
-      <h2 class="heading">Services</h2>
-      <div class="services-grid">
+    <div class="wrap hero-grid">
+      <div class="hero-text">
         <div>
-          <div class="service-number">01</div>
-          <h3 class="service-title">Choreography</h3>
-          <p class="service-desc">Competition solos, duets, trios, and groups. Showcases, recitals, and concert work. Contemporary, lyrical, jazz, musical theatre, hip hop. National-level award-winning choreography that places.</p>
-          <a href="#contact" class="service-link">Inquire</a>
+          <p class="bday" id="bday" hidden></p>
+          <h1 class="hero-name">tori ugalde</h1>
+          <p class="meta hero-roles">Choreographer &middot; Teacher &middot; Dancer &middot; Orlando</p>
         </div>
         <div>
-          <div class="service-number">02</div>
-          <h3 class="service-title">Teaching</h3>
-          <p class="service-desc">Technique classes, master classes, workshops, and private coaching. All levels. Training rooted in elite competition experience and a movement vocabulary that spans five styles.</p>
-          <a href="#contact" class="service-link">Inquire</a>
+          <p class="hero-lede">I set competition pieces from solos to big groups, teach dancers from five years old to adult, and build the costumes too.</p>
+          <div class="hero-ctas">
+            <a class="btn" href="#work">See my work</a>
+            <a class="btn ghost" href="resume.html">Resume</a>
+          </div>
         </div>
+      </div>
+      <div class="hero-film">
+        <video id="hero-video" autoplay muted loop playsinline preload="auto" poster="images/hero/hero-poster.jpg" aria-label="A piece choreographed by Tori">
+          <source src="images/hero/hero-loop.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="wrap">
+      <div class="hats">
+        <div class="hat">
+          <p class="n">choreographer</p>
+          <h3>Pieces that compete.</h3>
+          <p>Musical theatre, jazz, contemporary and lyrical, from a solo to a full company number. My duet Stepsisters Lament won the Judges Award, "Broadway Bound," at StarQuest Nationals.</p>
+        </div>
+        <div class="hat">
+          <p class="n">teacher</p>
+          <h3>From littles to adults.</h3>
+          <p>I lead Technique &amp; Flexibility for ages 5 to 9 at DWD ProSeries, and teach jazz, musical theatre, acro and contemporary up through elite competition dancers and adult beginners.</p>
+        </div>
+        <div class="hat">
+          <p class="n">dancer</p>
+          <h3>Raised on the competition stage.</h3>
+          <p>Years on the Celebration Arts Academy competition team, a scholarship at nationals, and a season with ASH The Company. Now I coach the dancers coming up behind me.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section band-dark" id="work">
+    <div class="wrap">
+      <div class="section-head">
         <div>
-          <div class="service-number">03</div>
-          <h3 class="service-title">Costume Design</h3>
-          <p class="service-desc">Custom competition and performance costumes — designed and constructed. One-stop collaborator: I choreograph the piece and build the look. Technical craft meets visual storytelling.</p>
-          <a href="#contact" class="service-link">Inquire</a>
+          <p class="meta">My choreography</p>
+          <h2 style="margin-top:10px">The work.</h2>
+          <p>Competition pieces I choreographed, with the dancers who brought them to the stage.</p>
         </div>
+        <a class="link" href="media.html?f=choreo">Every video</a>
+      </div>
+      <div class="works" id="works"></div>
+    </div>
+  </section>
+
+  <section class="section" id="teaching">
+    <div class="wrap teach">
+      <div>
+        <h2 style="margin-bottom:12px">In the classroom.</h2>
+        <p style="color:var(--ink-2);margin-bottom:28px">Every class gets warmed up properly, pushed honestly and sent home a little better. The littles leave with their splits closer. The big kids leave with a combo they want to film.</p>
+        <ul class="rows">
+          <li><strong>Technique &amp; Flexibility</strong><span>Ages 5 to 9 &middot; weekly</span><small>Lead teacher, DWD ProSeries, 2026-27 season</small></li>
+          <li><strong>Musical theatre</strong><span>All levels</span><small>DWD ProSeries rotation and Summer Intensive faculty</small></li>
+          <li><strong>Jazz</strong><span>Teen and elite</span><small>dwdCON 2026, rotation and subbing</small></li>
+          <li><strong>Strength, stretch and acro</strong><span>All ages</span><small>DWD ProSeries rotation faculty</small></li>
+          <li><strong>Contemporary and ballet</strong><span>Sub</span><small>Regular sub for competition-level classes</small></li>
+          <li><strong>Adult beginner class</strong><span>Adults</span><small>Started fall 2026</small></li>
+          <li><strong>Master classes</strong><span>Advanced and adult</span><small>Guest teacher in Preston, Idaho, summer 2025</small></li>
+          <li><strong>Privates and solo rehearsals</strong><span>By booking</span><small>Solo choreography, cleaning and technique</small></li>
+        </ul>
+        <p style="margin-top:24px"><button class="link" id="watch-teach" style="border:0;cursor:pointer;font:inherit;font-weight:500">Watch me teach</button></p>
+      </div>
+      <img id="teach-img" src="images/photos/2026-07-tori-teaching-03.jpg" alt="Tori teaching across the floor at the DWD ProSeries summer intensive" loading="lazy">
+    </div>
+  </section>
+
+  <section class="section" id="dancer">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <h2>On stage.</h2>
+          <p>Before I set pieces, I danced them. Tokyo Sunrise, The Moment I Said It, Strange Thunder, Be Glad, One Eye Open and more, on the Celebration Arts Academy competition team.</p>
+        </div>
+        <a class="link" href="media.html?f=dance">All photos</a>
+      </div>
+      <div class="strip" id="strip"></div>
+    </div>
+  </section>
+
+  <section class="section" id="costumes">
+    <div class="wrap teach">
+      <div>
+        <h2 style="margin-bottom:12px">The look comes with it.</h2>
+        <p style="color:var(--ink-2)">I design, source and rhinestone costumes, and I plan the hair, makeup and jewelry so a team reads as one. I am the costume lead for DWD ProSeries this season, and I built the costumes for Stepsisters Lament myself.</p>
+      </div>
+      <img id="costume-img" src="images/photos/stepsisters-costumes.jpg" alt="Stepsisters Lament on stage, in the costumes Tori built" loading="lazy">
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="looking">
+        <h2>What I'm looking for</h2>
+        <ul>
+          <li><strong>Competition choreography.</strong> Solos, duets, trios and groups for your team, especially musical theatre and jazz.</li>
+          <li><strong>Weekly classes.</strong> Technique and flexibility for the littles, jazz and musical theatre for the older kids.</li>
+          <li><strong>Subbing.</strong> Short notice is fine. I can step into contemporary, jazz, ballet and acro classes.</li>
+          <li><strong>Master classes and workshops.</strong> A combo your dancers will want to film.</li>
+          <li><strong>Costume design.</strong> A look for one piece, or a whole team.</li>
+        </ul>
       </div>
     </div>
   </section>
 
-  <!-- Reel — proof of work -->
-  <section id="reel" class="reel reveal">
-    <div class="reel-inner">
-      <p class="label">See the Work</p>
-      <h2 class="heading">Performance Reel</h2>
-      <div class="reel-embed">
-        <div class="yt-lazy" data-video-id="YOUTUBE_VIDEO_ID" style="position:absolute;top:0;left:0;width:100%;height:100%;"></div>
+  <section class="section">
+    <div class="wrap">
+      <div class="quotes">
+        <blockquote><p>"You are basically a younger version of me, and second in command on all things."</p><cite>Dixon Bowles, Director, Dance With Dixon</cite></blockquote>
+        <blockquote><p>"Sadie Sadie is the best thing you've ever done. The intro?! Tony Award winning."</p><cite>Dixon Bowles, on her musical theatre combo</cite></blockquote>
+        <blockquote><p>"You're gonna choreograph on Broadway one day. I can feel it."</p><cite>Dixon Bowles</cite></blockquote>
       </div>
     </div>
   </section>
 
-  <!-- Featured Work — select pieces -->
-  <section class="featured reveal">
-    <div class="featured-header">
-      <p class="label">Portfolio</p>
-      <h2 class="heading">Select Pieces</h2>
-    </div>
-
-    <div class="featured-piece">
-      <img class="featured-img" data-src="images/photos/tokyo-sunrise-1.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 21 9'%3E%3C/svg%3E" alt="Tokyo Sunrise">
-      <div class="featured-text">
-        <h3 class="featured-name">Tokyo Sunrise</h3>
-        <p class="featured-awards">1st Overall StarQuest &middot; Choreography Award &middot; Double Platinum Advanced</p>
-      </div>
-    </div>
-
-    <div class="featured-piece">
-      <img class="featured-img" data-src="images/photos/strange-thunder-1.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 21 9'%3E%3C/svg%3E" alt="Strange Thunder">
-      <div class="featured-text">
-        <h3 class="featured-name">Strange Thunder</h3>
-        <p class="featured-awards">Entertainment Pick &middot; Diamond &middot; 1st in Category</p>
-      </div>
-    </div>
-
-    <div class="featured-piece">
-      <img class="featured-img" data-src="images/photos/be-glad-1.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 21 9'%3E%3C/svg%3E" alt="Be Glad">
-      <div class="featured-text">
-        <h3 class="featured-name">Be Glad</h3>
-        <p class="featured-awards">Diamond &middot; Platinum</p>
-      </div>
-    </div>
-
-    <div class="featured-piece">
-      <img class="featured-img" data-src="images/photos/the-moment-1.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 21 9'%3E%3C/svg%3E" alt="The Moment I Said It">
-      <div class="featured-text">
-        <h3 class="featured-name">The Moment I Said It</h3>
-        <p class="featured-awards">1st Place ASH Nationals &middot; 5th Overall</p>
+  <section class="section" id="contact">
+    <div class="wrap contact">
+      <h2>Let's make something for your dancers.</h2>
+      <div class="contact-lines">
+        <a class="btn" href="mailto:tori.ugalde04@gmail.com?subject=Working%20together">tori.ugalde04@gmail.com</a>
+        <a class="link" href="https://www.instagram.com/tori.udance/" target="_blank" rel="noopener">Instagram @tori.udance</a>
+        <a class="link" href="resume.html">Resume</a>
       </div>
     </div>
   </section>
+</main>
 
-  <!-- Credentials — compact, supporting evidence -->
-  <section class="credentials reveal">
-    <div class="credentials-inner">
-      <div class="stats-row">
-        <div class="stat">
-          <div class="stat-number">20</div>
-          <div class="stat-label">Competition Pieces</div>
-        </div>
-        <div class="stat">
-          <div class="stat-number">3</div>
-          <div class="stat-label">Seasons</div>
-        </div>
-        <div class="stat">
-          <div class="stat-number">5</div>
-          <div class="stat-label">Styles</div>
-        </div>
-        <div class="stat">
-          <div class="stat-number">1st</div>
-          <div class="stat-label">Overall</div>
-        </div>
-      </div>
-      <ul class="credentials-list">
-        <li><span class="exp-award">1st Overall StarQuest</span><span class="exp-piece">Tokyo Sunrise</span></li>
-        <li><span class="exp-award">1st Place ASH Nationals</span><span class="exp-piece">The Moment I Said It</span></li>
-        <li><span class="exp-award">Choreography Award</span><span class="exp-piece">Tokyo Sunrise</span></li>
-        <li><span class="exp-award">Entertainment Pick</span><span class="exp-piece">Strange Thunder</span></li>
-        <li><span class="exp-award">Diamond — Groove 2024</span><span class="exp-piece">Multiple pieces</span></li>
-        <li><span class="exp-award">Diamond Platinum</span><span class="exp-piece">Dormi Reveille</span></li>
-        <li><span class="exp-award">Choreography Nomination</span><span class="exp-piece">Hero</span></li>
-        <li><span class="exp-award">97/100 Score</span><span class="exp-piece">Quit</span></li>
-      </ul>
-    </div>
-  </section>
+<footer class="site-footer">
+  <div class="wrap">
+    <span class="wordmark">tori ugalde</span>
+    <span>Choreographer and teacher, Orlando, Florida</span>
+  </div>
+</footer>
 
-  <!-- Contact — full section, conversion close -->
-  <section id="contact" class="contact reveal">
-    <div class="contact-inner">
-      <p class="label" style="color: var(--lavender-light);">Get in Touch</p>
-      <h2 class="contact-heading">Ready to create something together?</h2>
-      <p class="contact-text">Available for competition choreography, guest teaching, master classes, workshops, and custom costume design. Based in Orlando — willing to travel.</p>
-      <a href="mailto:email@example.com" class="contact-button">email@example.com</a>
-      <div class="contact-links">
-        <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
-        <a href="gallery.html">View Gallery</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <span class="footer-name">Tori Ugalde</span>
-    <span class="footer-credit">Trained under Dixon Van Hoozer-Bowles at Celebration Arts Academy</span>
-  </footer>
-
-  <script src="js/main.js"></script>
+<script src="js/viewer.js"></script>
+<script src="js/plan-store.js"></script>
+<script src="js/home.js"></script>
 </body>
 </html>

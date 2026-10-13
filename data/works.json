@@ -1,0 +1,150 @@
+{
+ "works": [
+  {
+   "type": "video",
+   "src": "media/video/choreo-stepsisters-lament-2024.mp4",
+   "poster": "media/posters/choreo-stepsisters-lament-2024.jpg",
+   "thumb": "media/posters/choreo-stepsisters-lament-2024.jpg",
+   "title": "Stepsisters Lament",
+   "kind": "Musical theatre duet",
+   "season": "",
+   "credits": [
+    [
+     "Choreography",
+     "Tori Ugalde"
+    ],
+    [
+     "Style",
+     "Musical theatre duet"
+    ],
+    [
+     "Studio",
+     "Celebration Arts Academy, 2024-25"
+    ],
+    [
+     "Costumes",
+     "Tori Ugalde"
+    ],
+    [
+     "Award",
+     "Judges Award \"Broadway Bound\" and Platinum, StarQuest Nationals 2025"
+    ]
+   ]
+  },
+  {
+   "type": "video",
+   "src": "media/video/choreo-big-noise-2025.mp4",
+   "poster": "media/posters/choreo-big-noise-2025.jpg",
+   "thumb": "media/posters/choreo-big-noise-2025.jpg",
+   "title": "Big Noise",
+   "kind": "Large group",
+   "season": "",
+   "credits": [
+    [
+     "Choreography",
+     "Tori Ugalde"
+    ],
+    [
+     "Style",
+     "Large group"
+    ],
+    [
+     "Studio",
+     "Celebration Arts Academy, 2025-26"
+    ]
+   ]
+  },
+  {
+   "type": "video",
+   "src": "media/video/choreo-i-am-2025.mp4",
+   "poster": "media/posters/choreo-i-am-2025.jpg",
+   "thumb": "media/posters/choreo-i-am-2025.jpg",
+   "title": "I Am",
+   "kind": "Contemporary solo",
+   "season": "",
+   "credits": [
+    [
+     "Choreography",
+     "Tori Ugalde"
+    ],
+    [
+     "Style",
+     "Contemporary solo"
+    ],
+    [
+     "Studio",
+     "Celebration Arts Academy, 2025-26"
+    ]
+   ]
+  },
+  {
+   "type": "video",
+   "src": "media/video/choreo-just-for-now-2026.mp4",
+   "poster": "media/posters/choreo-just-for-now-2026.jpg",
+   "thumb": "media/posters/choreo-just-for-now-2026.jpg",
+   "title": "Just For Now",
+   "kind": "Group",
+   "season": "",
+   "credits": [
+    [
+     "Choreography",
+     "Tori Ugalde"
+    ],
+    [
+     "Style",
+     "Group"
+    ],
+    [
+     "Studio",
+     "Guest choreographer, Preston, Idaho, 2025"
+    ]
+   ]
+  },
+  {
+   "type": "video",
+   "src": "media/video/choreo-on-broadway-showcase-2026.mp4",
+   "poster": "media/posters/choreo-on-broadway-showcase-2026.jpg",
+   "thumb": "media/posters/choreo-on-broadway-showcase-2026.jpg",
+   "title": "On Broadway",
+   "kind": "Musical theatre group",
+   "season": "",
+   "credits": [
+    [
+     "Choreography",
+     "Tori Ugalde"
+    ],
+    [
+     "Style",
+     "Musical theatre group"
+    ],
+    [
+     "Studio",
+     "DWD ProSeries open house, 2026"
+    ]
+   ]
+  },
+  {
+   "type": "video",
+   "src": "media/video/choreo-jazz-dwdcon-2026.mp4",
+   "poster": "media/posters/choreo-jazz-dwdcon-2026.jpg",
+   "thumb": "media/posters/choreo-jazz-dwdcon-2026.jpg",
+   "title": "Jazz combo",
+   "kind": "Class choreography",
+   "season": "",
+   "credits": [
+    [
+     "Choreography",
+     "Tori Ugalde"
+    ],
+    [
+     "Style",
+     "Class choreography"
+    ],
+    [
+     "Where",
+     "Her jazz class at dwdCON, 2026"
+    ]
+   ]
+  }
+ ]
+}

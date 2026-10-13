@@ -1,0 +1,33 @@
+{
+ "signature": "Tori Ugalde\nChoreographer and teacher, Orlando\ntori.ugalde04@gmail.com\nInstagram @tori.udance\n{site}",
+ "templates": [
+  {
+   "id": "choreo",
+   "label": "Set a piece on their team",
+   "when": "For competition studios.",
+   "subject": "Choreographer for {studio}'s competition team",
+   "body": "Hi {studio} team!\n\nMy name is Tori Ugalde. I'm a choreographer and teacher in Orlando, and I would love to set a piece on your dancers this season.\n\nI teach at Dance With Dixon ProSeries and Celebration Arts Academy, and I've set competition work from solos to large groups. My musical theatre duet Stepsisters Lament won the Judges Award, \"Broadway Bound,\" at StarQuest Nationals in 2025. I also design and build costumes, so the look can come with the piece.\n\nVideos of my work and my resume are all here:\n{site}\n\nSolos, duets, groups, musical theatre, jazz, contemporary: I'd love to hear what your team needs.\n\nThank you so much!\n\n{signature}"
+  },
+  {
+   "id": "teach",
+   "label": "Teach classes, sub or a master class",
+   "when": "For rec studios, schools and anyone who needs teachers.",
+   "subject": "Teaching, subbing or a master class at {studio}",
+   "body": "Hi {studio} team!\n\nMy name is Tori Ugalde. I teach dance in Orlando, and I'm looking to add teaching this season: a weekly class, subbing, or a master class.\n\nRight now I lead Technique & Flexibility for ages 5 to 9 at DWD ProSeries, and I teach jazz, musical theatre, acro and contemporary, from littles through elite competition dancers and adult beginners.\n\nMy work, my resume and videos are here:\n{site}\n\nIf you ever need a sub, I'm one text away. I would love to come meet your dancers!\n\nThank you!\n\n{signature}"
+  },
+  {
+   "id": "general",
+   "label": "Introduce myself",
+   "when": "For conventions, companies, theme parks and job boards.",
+   "subject": "Tori Ugalde, choreographer and teacher in Orlando",
+   "body": "Hi there!\n\nMy name is Tori Ugalde. I'm a choreographer, teacher and dancer based in Orlando. I teach at DWD ProSeries, I danced with ASH The Company, and I work competition weekends with FLY Dance Competition, so I know how an event runs from backstage to the awards table.\n\nI'd love to be considered for faculty, assisting, choreography or performing work with you. Everything is here:\n{site}\n\nThank you for your time!\n\n{signature}"
+  },
+  {
+   "id": "followup",
+   "label": "Follow up",
+   "when": "A week after the first note, if they haven't answered.",
+   "subject": "Following up from Tori Ugalde",
+   "body": "Hi {studio} team!\n\nJust following up on my note from last week. I'd still love to work with your dancers, whether that's a piece, a class or a sub. My work and resume are here:\n{site}\n\nThanks so much!\n\n{signature}"
+  }
+ ]
+}

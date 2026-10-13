@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Tori's Plan</title>
+<meta name="theme-color" content="#FFFFFF">
+<link rel="icon" href="brand/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="brand/apple-touch-icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Outfit:wght@300;400;500;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+<link rel="stylesheet" href="css/plan.css">
+</head>
+<body class="app locked">
+
+<header class="app-head">
+  <div class="wrap">
+    <a class="wordmark" href="./">tori ugalde</a>
+    <span class="sync local" id="sync">Opening</span>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="view" id="v-today">
+    <div class="card note-card" id="note" hidden>
+      <button class="x" aria-label="Close the note">Close</button>
+      <p class="script">Happy belated 22nd, Tori</p>
+      <p>I missed your birthday, so I built you this instead. Everything you have done is in one place now: the pieces you made, the classes you teach, the dancer you were and still are. And this page is the part nobody else sees: every studio around Orlando, how to reach them, and a note ready to send.</p>
+      <p>You are the best second in command I could have asked for. Go get your own rooms.</p>
+      <p style="font-weight:500">Love, Dixon</p>
+    </div>
+    <h1 style="margin-top:24px">Today</h1>
+    <p class="sub">Where your outreach stands.</p>
+    <div class="stats" id="stats"></div>
+    <div class="card" style="padding:0">
+      <h2 style="padding:18px 18px 0">Follow up</h2>
+      <ul class="list" id="due" style="box-shadow:none;border-radius:0 0 16px 16px"></ul>
+    </div>
+    <div class="card" style="padding:0">
+      <h2 style="padding:18px 18px 0">Start here</h2>
+      <p class="sub" style="padding:0 18px;margin:4px 0 0">The best fits for you right now.</p>
+      <ul class="list" id="starts" style="box-shadow:none;border-radius:0 0 16px 16px"></ul>
+    </div>
+  </section>
+
+  <section class="view" id="v-studios" hidden>
+    <h1>Studios</h1>
+    <p class="sub">Every studio and program around Orlando worth a note, with how to reach them.</p>
+    <div class="tools">
+      <input class="search" id="q" type="search" placeholder="Search studios, cities, styles" aria-label="Search">
+    </div>
+    <div class="tools">
+      <select class="pick" id="f-city" aria-label="City"></select>
+      <select class="pick" id="f-kind" aria-label="Kind">
+        <option value="">Everything</option>
+        <option value="studio">Studios</option>
+        <option value="comp">Has a comp team</option>
+        <option value="email">Has an email</option>
+        <option value="school">Schools</option>
+        <option value="convention">Conventions</option>
+        <option value="company">Companies</option>
+        <option value="theme-park">Theme parks</option>
+        <option value="rec">Rec and community</option>
+        <option value="job-board">Job boards</option>
+      </select>
+      <select class="pick" id="f-status" aria-label="Status">
+        <option value="">Any status</option>
+        <option value="none">Not contacted</option>
+        <option>Emailed</option>
+        <option>Followed up</option>
+        <option>Replied</option>
+        <option>Meeting</option>
+        <option>Working with</option>
+        <option>Not now</option>
+      </select>
+    </div>
+    <p class="count" id="count"></p>
+    <ul class="list" id="studios"></ul>
+  </section>
+
+  <section class="view" id="v-pitch" hidden>
+    <h1>Pitch</h1>
+    <p class="sub">Your notes to studios. Each one fills in the studio's name and your links on its own. Change the words here once and every email uses them.</p>
+    <label class="field card"><span>Your sign-off</span><textarea id="sig" rows="4"></textarea></label>
+    <div id="tpls"></div>
+
+    <div class="card">
+      <h2>Add a video to your site</h2>
+      <p class="sub" style="margin-bottom:0">Paste a YouTube link (unlisted is fine). It shows up in the Work section of your site.</p>
+      <form id="add-video">
+        <label class="field"><span>YouTube link</span><input name="url" inputmode="url" placeholder="https://youtu.be/..." required></label>
+        <label class="field"><span>Piece</span><input name="title" placeholder="Name of the piece"></label>
+        <label class="field"><span>What it is</span><input name="kind" placeholder="Contemporary group, 8 dancers"></label>
+        <label class="field"><span>Year</span><input name="year" placeholder="2026"></label>
+        <button class="btn" type="submit">Add to my site</button>
+      </form>
+      <ul class="vids" id="vids" style="margin-top:16px"></ul>
+    </div>
+
+    <div class="card">
+      <h2>Add a studio</h2>
+      <form id="add-studio">
+        <label class="field"><span>Name</span><input name="name" required></label>
+        <label class="field"><span>Email</span><input name="email" type="email"></label>
+        <label class="field"><span>City</span><input name="city"></label>
+        <label class="field"><span>Website</span><input name="website" inputmode="url"></label>
+        <label class="field"><span>Instagram</span><input name="instagram" placeholder="@"></label>
+        <label class="field"><span>Why them</span><input name="angle"></label>
+        <button class="btn ghost" type="submit">Add studio</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="view" id="v-goals" hidden>
+    <h1>Dreams</h1>
+    <p class="sub">Dixon started this list from things you have said. Make it yours: add the ones only you know, and tick them off as they happen.</p>
+    <div class="card" id="goals"></div>
+    <form class="card" id="add-goal">
+      <label class="field" style="margin-top:0"><span>A dream of your own</span><input name="text" placeholder="Say it out loud. It goes on the list."></label>
+      <button class="btn ghost" type="submit">Add it</button>
+    </form>
+  </section>
+
+</main>
+
+<nav class="appnav" aria-label="Plan">
+  <div class="wrap" role="tablist">
+    <button class="navtab" role="tab" data-tab="today">Today</button>
+    <button class="navtab" role="tab" data-tab="studios">Studios</button>
+    <button class="navtab" role="tab" data-tab="pitch">Pitch</button>
+    <button class="navtab" role="tab" data-tab="goals">Dreams</button>
+  </div>
+</nav>
+
+<div class="scrim" id="scrim"></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Details"></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/plan-store.js"></script>
+<script src="js/plan.js"></script>
+</body>
+</html>

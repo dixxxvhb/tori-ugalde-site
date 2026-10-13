@@ -1,0 +1,507 @@
+{
+ "items": [
+  {
+   "type": "photo",
+   "src": "images/photos/2023-02-tori-dancing-02.jpg",
+   "w": 1600,
+   "h": 1067,
+   "title": "Inspire 2023 trio, mid-phrase",
+   "date": "2023-02-11",
+   "tag": "dance"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2023-02-tori-dancing-04.jpg",
+   "w": 1600,
+   "h": 1067,
+   "title": "Inspire 2023 trio, kick and lift",
+   "date": "2023-02-11",
+   "tag": "dance",
+   "home": 7
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2023-02-tori-dancing-08.jpg",
+   "w": 1600,
+   "h": 1067,
+   "title": "Inspire 2023 trio, ending shape",
+   "date": "2023-02-11",
+   "tag": "dance"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2023-02-tori-dancing-09.jpg",
+   "w": 1600,
+   "h": 1067,
+   "title": "Inspire 2023 solo in mint gown",
+   "date": "2023-02-11",
+   "tag": "dance",
+   "home": 1
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2023-06-tori-candid-01.jpg",
+   "w": 1600,
+   "h": 1200,
+   "title": "ASH 2023 red carpet with John",
+   "date": "2023-06-30",
+   "tag": "candid"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2023-10-tori-candid-01.jpg",
+   "w": 1200,
+   "h": 1600,
+   "title": "ASH Oct 2023 in duet costumes (with Brooke)",
+   "date": "2023-10-21",
+   "tag": "candid"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2023-10-tori-candid-02.jpg",
+   "w": 1200,
+   "h": 1600,
+   "title": "ASH Oct 2023 in white costumes",
+   "date": "2023-10-21",
+   "tag": "candid"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2024-01-tori-candid-01.jpg",
+   "w": 1200,
+   "h": 1600,
+   "title": "StarQuest 2024 with awards (with Brooke)",
+   "date": "2024-01-26",
+   "tag": "candid"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2024-01-tori-dancing-01.jpg",
+   "w": 1600,
+   "h": 1067,
+   "title": "88 Keys - StarQuest 2024",
+   "date": "2024-01-27",
+   "tag": "dance"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2024-01-tori-dancing-02.jpg",
+   "w": 1600,
+   "h": 1067,
+   "title": "88 Keys - StarQuest 2024",
+   "date": "2024-01-27",
+   "tag": "dance"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2024-01-tori-dancing-03.jpg",
+   "w": 1600,
+   "h": 1067,
+   "title": "Strange Thunder - StarQuest 2024",
+   "date": "2024-01-27",
+   "tag": "dance"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2024-01-tori-dancing-04.jpg",
+   "w": 1600,
+   "h": 1067,
+   "title": "Strange Thunder - StarQuest 2024",
+   "date": "2024-01-27",
+   "tag": "dance"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2024-01-tori-dancing-05.jpg",
+   "w": 1600,
+   "h": 1067,
+   "title": "Strange Thunder - StarQuest 2024",
+   "date": "2024-01-27",
+   "tag": "dance",
+   "home": 5
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2024-01-tori-dancing-06.jpg",
+   "w": 1600,
+   "h": 1067,
+   "title": "Strange Thunder - StarQuest 2024",
+   "date": "2024-01-27",
+   "tag": "dance"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2024-01-tori-dancing-07.jpg",
+   "w": 1600,
+   "h": 1067,
+   "title": "Strange Thunder - StarQuest 2024",
+   "date": "2024-01-27",
+   "tag": "dance"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2024-01-tori-dancing-08.jpg",
+   "w": 1600,
+   "h": 1067,
+   "title": "Strange Thunder - StarQuest 2024",
+   "date": "2024-01-27",
+   "tag": "dance"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2024-01-tori-dancing-09.jpg",
+   "w": 1600,
+   "h": 1067,
+   "title": "Strange Thunder - StarQuest 2024",
+   "date": "2024-01-27",
+   "tag": "dance"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2024-01-tori-dancing-12.jpg",
+   "w": 1600,
+   "h": 1067,
+   "title": "I Am - StarQuest 2024",
+   "date": "2024-01-27",
+   "tag": "dance",
+   "home": 8
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2024-01-tori-dancing-13.jpg",
+   "w": 1600,
+   "h": 1067,
+   "title": "I Am - StarQuest 2024",
+   "date": "2024-01-27",
+   "tag": "dance"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2024-01-tori-dancing-14.jpg",
+   "w": 1600,
+   "h": 1067,
+   "title": "The Moment I Said It - StarQuest 2024",
+   "date": "2024-01-27",
+   "tag": "dance"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2024-01-tori-dancing-15.jpg",
+   "w": 1600,
+   "h": 1067,
+   "title": "The Moment I Said It - StarQuest 2024",
+   "date": "2024-01-27",
+   "tag": "dance"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2024-01-tori-dancing-16.jpg",
+   "w": 1600,
+   "h": 1067,
+   "title": "Strange Thunder - StarQuest 2024",
+   "date": "2024-01-27",
+   "tag": "dance"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2024-01-tori-dancing-17.jpg",
+   "w": 1600,
+   "h": 1067,
+   "title": "Strange Thunder - StarQuest 2024",
+   "date": "2024-01-27",
+   "tag": "dance"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2024-01-tori-dancing-18.jpg",
+   "w": 1600,
+   "h": 1067,
+   "title": "I Am - StarQuest 2024",
+   "date": "2024-01-27",
+   "tag": "dance"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2024-01-tori-dancing-19.jpg",
+   "w": 1600,
+   "h": 1067,
+   "title": "I Am - StarQuest 2024",
+   "date": "2024-01-27",
+   "tag": "dance"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2024-02-tori-dancing-01.jpg",
+   "w": 1323,
+   "h": 1600,
+   "title": "The Moment I Said It - outdoor photo shoot 2024",
+   "date": "2024-02-20",
+   "tag": "dance",
+   "home": 4
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2024-02-tori-dancing-02.jpg",
+   "w": 1001,
+   "h": 1600,
+   "title": "The Moment I Said It - outdoor photo shoot 2024",
+   "date": "2024-02-20",
+   "tag": "dance"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2024-02-tori-portrait-01.jpg",
+   "w": 1200,
+   "h": 1600,
+   "title": "Backstage in black sparkle costume, Feb 2024",
+   "date": "2024-02-18",
+   "tag": "portrait"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2024-04-tori-dancing-01.jpg",
+   "w": 1600,
+   "h": 1067,
+   "title": "Strange Thunder - Showstopper 2024",
+   "date": "2024-04-20",
+   "tag": "dance",
+   "home": 3
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2024-04-tori-dancing-02.jpg",
+   "w": 1600,
+   "h": 1067,
+   "title": "Strange Thunder - Showstopper 2024",
+   "date": "2024-04-20",
+   "tag": "dance"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2024-04-tori-dancing-03.jpg",
+   "w": 1316,
+   "h": 880,
+   "title": "The Moment I Said It - Showstopper 2024",
+   "date": "2024-04-27",
+   "tag": "dance"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2025-11-tori-candid-02.jpg",
+   "w": 1200,
+   "h": 1600,
+   "title": "Tremaine 2025 with John and a trophy",
+   "date": "2025-11-21",
+   "tag": "candid"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2026-05-tori-portrait-01.jpg",
+   "w": 1080,
+   "h": 1350,
+   "title": "Headshot, Idaho hillside",
+   "date": "2026-05-31",
+   "tag": "portrait"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2026-05-tori-portrait-02.jpg",
+   "w": 1206,
+   "h": 1593,
+   "title": "Portrait at sunset, Idaho",
+   "date": "2026-05-31",
+   "tag": "portrait"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2026-06-tori-dancing-01.jpg",
+   "w": 1600,
+   "h": 852,
+   "title": "June 2026 adult ensemble show, Tori far right",
+   "date": "2026-06-27",
+   "tag": "dance"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2026-06-tori-dancing-02.jpg",
+   "w": 1600,
+   "h": 901,
+   "title": "June 2026 adult ensemble show, Tori far right",
+   "date": "2026-06-27",
+   "tag": "dance"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2026-06-tori-dancing-03.jpg",
+   "w": 1600,
+   "h": 1004,
+   "title": "June 2026 adult ensemble show, full cast",
+   "date": "2026-06-27",
+   "tag": "dance"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2026-06-tori-dancing-04.jpg",
+   "w": 1005,
+   "h": 1600,
+   "title": "Performing in the June 2026 adult ensemble show",
+   "date": "2026-06",
+   "tag": "dance",
+   "home": 6
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2024-01-tori-dancing-21.jpg",
+   "w": 1600,
+   "h": 1067,
+   "title": "The Moment I Said It - StarQuest 2024",
+   "date": "2024-01-27",
+   "tag": "dance",
+   "home": 2
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2024-01-tori-dancing-22.jpg",
+   "w": 1600,
+   "h": 1067,
+   "title": "The Moment I Said It - StarQuest 2024",
+   "date": "2024-01-27",
+   "tag": "dance"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2024-03-tori-candid-01.jpg",
+   "w": 1200,
+   "h": 1600,
+   "title": "ASH 2024 photo wall",
+   "date": "2024-03-15",
+   "tag": "candid"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2026-07-tori-teaching-03.jpg",
+   "w": 1061,
+   "h": 1600,
+   "title": "Teaching across the floor, summer intensive 2026",
+   "date": "2026-07-31",
+   "tag": "teach"
+  },
+  {
+   "type": "video",
+   "src": "media/video/choreo-stepsisters-lament-2024.mp4",
+   "poster": "media/posters/choreo-stepsisters-lament-2024.jpg",
+   "title": "Stepsisters Lament",
+   "kind": "Musical theatre duet",
+   "date": "2025-03-01",
+   "tag": "choreo"
+  },
+  {
+   "type": "video",
+   "src": "media/video/choreo-big-noise-2025.mp4",
+   "poster": "media/posters/choreo-big-noise-2025.jpg",
+   "title": "Big Noise",
+   "kind": "Large group",
+   "date": "2026-01-30",
+   "tag": "choreo"
+  },
+  {
+   "type": "video",
+   "src": "media/video/choreo-i-am-2025.mp4",
+   "poster": "media/posters/choreo-i-am-2025.jpg",
+   "title": "I Am",
+   "kind": "Contemporary solo",
+   "date": "2026-01-30",
+   "tag": "choreo"
+  },
+  {
+   "type": "video",
+   "src": "media/video/choreo-just-for-now-2026.mp4",
+   "poster": "media/posters/choreo-just-for-now-2026.jpg",
+   "title": "Just For Now",
+   "kind": "Group, Preston, Idaho",
+   "date": "2025-08-01",
+   "tag": "choreo"
+  },
+  {
+   "type": "video",
+   "src": "media/video/choreo-on-broadway-showcase-2026.mp4",
+   "poster": "media/posters/choreo-on-broadway-showcase-2026.jpg",
+   "title": "On Broadway",
+   "kind": "Musical theatre group, DWD ProSeries open house",
+   "date": "2026-05-23",
+   "tag": "choreo"
+  },
+  {
+   "type": "video",
+   "src": "media/video/choreo-jazz-dwdcon-2026.mp4",
+   "poster": "media/posters/choreo-jazz-dwdcon-2026.jpg",
+   "title": "Jazz combo",
+   "kind": "Her class at dwdCON",
+   "date": "2026-07-26",
+   "tag": "choreo"
+  },
+  {
+   "type": "video",
+   "src": "media/video/teach-meet-ms-tori-2026.mp4",
+   "poster": "media/posters/teach-meet-ms-tori-2026.jpg",
+   "title": "Meet Ms. Tori",
+   "kind": "Teaching at DWD ProSeries",
+   "date": "2026-09-21",
+   "tag": "teach"
+  },
+  {
+   "type": "video",
+   "src": "media/video/teach-intro-rotation-teacher-2026.mp4",
+   "poster": "media/posters/teach-intro-rotation-teacher-2026.jpg",
+   "title": "Rotation teacher",
+   "kind": "DWD ProSeries open house",
+   "date": "2026-05-23",
+   "tag": "teach"
+  },
+  {
+   "type": "video",
+   "src": "media/video/dance-be-glad-2024.mp4",
+   "poster": "media/posters/dance-be-glad-2024.jpg",
+   "title": "Be Glad",
+   "kind": "Solo, Tori dancing",
+   "date": "2024-02-15",
+   "tag": "dance"
+  },
+  {
+   "type": "video",
+   "youtube": "13yTeXaUc9U",
+   "poster": "https://i.ytimg.com/vi/13yTeXaUc9U/hqdefault.jpg",
+   "title": "Tokyo Sunrise",
+   "kind": "Lyrical small group, her senior farewell piece",
+   "date": "2024-04-01",
+   "tag": "dance"
+  },
+  {
+   "type": "video",
+   "youtube": "VIDazQaAs3E",
+   "poster": "https://i.ytimg.com/vi/VIDazQaAs3E/hqdefault.jpg",
+   "title": "Strange Thunder",
+   "kind": "Senior jazz duet",
+   "date": "2024-04-01",
+   "tag": "dance"
+  },
+  {
+   "type": "video",
+   "youtube": "UNC_Qc1Ijyk",
+   "poster": "https://i.ytimg.com/vi/UNC_Qc1Ijyk/hqdefault.jpg",
+   "title": "One Eye Open",
+   "kind": "Musical theatre solo",
+   "date": "2023-03-01",
+   "tag": "dance"
+  },
+  {
+   "type": "video",
+   "youtube": "3ijYStDAQeA",
+   "poster": "https://i.ytimg.com/vi/3ijYStDAQeA/hqdefault.jpg",
+   "title": "If You Hadn't But You Did",
+   "kind": "Musical theatre solo",
+   "date": "2024-03-01",
+   "tag": "dance"
+  }
+ ]
+}
