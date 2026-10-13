@@ -225,25 +225,6 @@
     document.querySelectorAll('[data-reset]').forEach(b => b.addEventListener('click', () => {
       PlanStore.set(['tpl', b.dataset.reset, 'subject'], null); PlanStore.set(['tpl', b.dataset.reset, 'body'], null); renderPitch(); toast('Original is back');
     }));
-    renderVideos();
-  }
-
-  function renderVideos() {
-    const v = ((S().pub || {}).videos) || {};
-    const rows = Object.entries(v).filter(([, x]) => x && typeof x === 'object' && x.yt).sort((a, b) => String(a[1].order || '').localeCompare(String(b[1].order || '')));
-    $('#vids').innerHTML = rows.length ? rows.map(([id, x]) => `<li><span><b style="font-weight:500">${esc(x.title || 'Untitled')}</b><br><small style="color:var(--ink-2)">${esc([x.kind, x.year].filter(Boolean).join(' · '))}${x.hidden ? ' · hidden' : ''}</small></span>
-      <span><button class="txt-btn" data-hide="${esc(id)}">${x.hidden ? 'Show' : 'Hide'}</button> &nbsp; <button class="txt-btn" data-del="${esc(id)}">Remove</button></span></li>`).join('')
-      : `<li class="empty" style="display:block">No videos added yet. The ones Dixon put on the site stay there either way.</li>`;
-    document.querySelectorAll('[data-hide]').forEach(b => b.addEventListener('click', () => { const id = b.dataset.hide; PlanStore.set(['pub', 'videos', id, 'hidden'], v[id].hidden ? null : 'yes'); renderVideos(); }));
-    document.querySelectorAll('[data-del]').forEach(b => b.addEventListener('click', () => {
-      if (!confirm('Remove this video from your site?')) return;
-      PlanStore.set(['pub', 'videos', b.dataset.del], null); renderVideos();
-    }));
-  }
-
-  function ytId(u) {
-    const m = String(u).match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|shorts\/|embed\/|live\/))([A-Za-z0-9_-]{11})/);
-    return m ? m[1] : (/^[A-Za-z0-9_-]{11}$/.test(u.trim()) ? u.trim() : null);
   }
 
   function wirePitch() {
@@ -255,19 +236,6 @@
       const id = 'mine-' + Date.now().toString(36);
       ['name', 'email', 'city', 'website', 'instagram', 'angle'].forEach(k => { const v = String(f.get(k) || '').trim(); if (v) PlanStore.set(['custom', id, k], v.slice(0, 300)); });
       e.target.reset(); fillFilters(); toast(name + ' added');
-    });
-    $('#add-video').addEventListener('submit', e => {
-      e.preventDefault();
-      const f = new FormData(e.target);
-      const yt = ytId(String(f.get('url') || ''));
-      if (!yt) { toast('That does not look like a YouTube link'); return; }
-      const id = 'v' + Date.now().toString(36);
-      PlanStore.set(['pub', 'videos', id, 'yt'], yt);
-      PlanStore.set(['pub', 'videos', id, 'title'], String(f.get('title') || '').trim().slice(0, 120) || 'New work');
-      const kind = String(f.get('kind') || '').trim(); if (kind) PlanStore.set(['pub', 'videos', id, 'kind'], kind.slice(0, 120));
-      const year = String(f.get('year') || '').trim(); if (year) PlanStore.set(['pub', 'videos', id, 'year'], year.slice(0, 20));
-      PlanStore.set(['pub', 'videos', id, 'order'], String(Date.now()));
-      e.target.reset(); renderVideos(); toast('On your site now');
     });
   }
 
@@ -298,6 +266,7 @@
     if (tab === 'today') renderToday();
     if (tab === 'studios') renderStudios();
     if (tab === 'goals') renderGoals();
+    if (tab === 'site' && !refreshAll.siteOpen) { refreshAll.siteOpen = true; SiteEditor.open($('#editor'), toast); }
     syncLine();
   }
   function syncLine() {
@@ -334,7 +303,7 @@
     $('#note .x').addEventListener('click', () => { PlanStore.set(['goals', 'note-closed'], today()); $('#note').hidden = true; });
     PlanStore.onChange(() => { if (!$('#sheet').classList.contains('open')) refreshAll(); else syncLine(); });
     let tab = 'today'; try { tab = localStorage.getItem('tu-tab') || 'today'; } catch (e) {}
-    show(['today', 'studios', 'pitch', 'goals'].includes(tab) ? tab : 'today');
+    show(['today', 'studios', 'pitch', 'site', 'goals'].includes(tab) ? tab : 'today');
     setInterval(syncLine, 1500);
   }
   start();

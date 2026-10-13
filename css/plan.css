@@ -8,7 +8,7 @@ body.app { background: #FBFAFC; padding-bottom: 88px; }
 .sync.local::before { background: var(--ink-3); }
 
 .appnav { position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; background: rgba(255,255,255,.96); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom); }
-.appnav .wrap { display: grid; grid-template-columns: repeat(4, 1fr); }
+.appnav .wrap { display: grid; grid-template-columns: repeat(5, 1fr); padding: 0 4px; }
 .navtab { height: 60px; border: 0; background: none; font-weight: 500; font-size: 14px; color: var(--ink-3); cursor: pointer; position: relative; }
 .navtab[aria-selected="true"] { color: var(--ink); }
 .navtab[aria-selected="true"]::after { content: ''; position: absolute; left: 30%; right: 30%; top: 0; height: 2px; background: var(--lav); border-radius: 2px; }
@@ -91,3 +91,17 @@ select.pick { min-height: 46px; border-radius: 12px; border: 0; box-shadow: inse
 .gate .wordmark { font-size: 64px; display: block; margin-bottom: 16px; }
 .gate p { color: var(--ink-2); }
 body.locked main, body.locked .appnav { visibility: hidden; }
+
+.ed-row { border-top: 1px solid var(--line); }
+.ed-row summary { list-style: none; cursor: pointer; padding: 14px 28px 14px 0; position: relative; display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+.ed-row summary::-webkit-details-marker { display: none; }
+.ed-row summary::after { content: ''; position: absolute; right: 6px; top: 20px; width: 8px; height: 8px; border-right: 1.5px solid var(--ink-3); border-bottom: 1.5px solid var(--ink-3); transform: rotate(45deg); transition: transform .2s var(--ease); }
+.ed-row[open] summary::after { transform: rotate(225deg); top: 24px; }
+.ed-row summary b { font-weight: 500; }
+.ed-row summary small { font-size: 13px; color: var(--ink-3); }
+.ed-row[open] { padding-bottom: 12px; }
+.ed-actions { display: flex; gap: 18px; padding-top: 4px; }
+.txt-btn[disabled] { opacity: .35; cursor: default; }
+.ed-row .field { margin: 10px 0; }
+@media (max-width: 420px) { .navtab { font-size: 13px; } }
+.field input::placeholder, .field textarea::placeholder { color: var(--ink-3); opacity: .55; }

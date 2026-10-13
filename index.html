@@ -18,7 +18,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Outfit:wght@300;400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/site.css">
 </head>
-<body>
+<body class="loading">
 
 <header class="site-header">
   <div class="wrap">
@@ -39,10 +39,10 @@
         <div>
           <p class="bday" id="bday" hidden></p>
           <h1 class="hero-name">tori ugalde</h1>
-          <p class="meta hero-roles">Choreographer &middot; Teacher &middot; Dancer &middot; Orlando</p>
+          <p class="meta hero-roles" data-t="roles"></p>
         </div>
         <div>
-          <p class="hero-lede">I set competition pieces from solos to big groups, teach dancers from five years old to adult, and build the costumes too.</p>
+          <p class="hero-lede" data-t="lede"></p>
           <div class="hero-ctas">
             <a class="btn" href="#work">See my work</a>
             <a class="btn ghost" href="resume.html">Resume</a>
@@ -60,32 +60,20 @@
   <section class="section" id="about">
     <div class="wrap">
       <div class="hats">
-        <div class="hat">
-          <p class="n">choreographer</p>
-          <h3>Pieces that compete.</h3>
-          <p>Musical theatre, jazz, contemporary and lyrical, from a solo to a full company number. My duet Stepsisters Lament won the Judges Award, "Broadway Bound," at StarQuest Nationals.</p>
-        </div>
-        <div class="hat">
-          <p class="n">teacher</p>
-          <h3>From littles to adults.</h3>
-          <p>I lead Technique &amp; Flexibility for ages 5 to 9 at DWD ProSeries, and teach jazz, musical theatre, acro and contemporary up through elite competition dancers and adult beginners.</p>
-        </div>
-        <div class="hat">
-          <p class="n">dancer</p>
-          <h3>Raised on the competition stage.</h3>
-          <p>Years on the Celebration Arts Academy competition team, a scholarship at nationals, and a season with ASH The Company. Now I coach the dancers coming up behind me.</p>
-        </div>
+        <div class="hat"><p class="n">choreographer</p><h3 data-t="hat1_h"></h3><p data-t="hat1_p"></p></div>
+        <div class="hat"><p class="n">teacher</p><h3 data-t="hat2_h"></h3><p data-t="hat2_p"></p></div>
+        <div class="hat"><p class="n">dancer</p><h3 data-t="hat3_h"></h3><p data-t="hat3_p"></p></div>
       </div>
     </div>
   </section>
 
-  <section class="section band-dark" id="work">
+  <section class="section band-dark" id="work" data-list="works">
     <div class="wrap">
       <div class="section-head">
         <div>
           <p class="meta">My choreography</p>
-          <h2 style="margin-top:10px">The work.</h2>
-          <p>Competition pieces I choreographed, with the dancers who brought them to the stage.</p>
+          <h2 style="margin-top:10px" data-t="work_h"></h2>
+          <p data-t="work_p"></p>
         </div>
         <a class="link" href="media.html?f=choreo">Every video</a>
       </div>
@@ -96,18 +84,9 @@
   <section class="section" id="teaching">
     <div class="wrap teach">
       <div>
-        <h2 style="margin-bottom:12px">In the classroom.</h2>
-        <p style="color:var(--ink-2);margin-bottom:28px">Every class gets warmed up properly, pushed honestly and sent home a little better. The littles leave with their splits closer. The big kids leave with a combo they want to film.</p>
-        <ul class="rows">
-          <li><strong>Technique &amp; Flexibility</strong><span>Ages 5 to 9 &middot; weekly</span><small>Lead teacher, DWD ProSeries, 2026-27 season</small></li>
-          <li><strong>Musical theatre</strong><span>All levels</span><small>DWD ProSeries rotation and Summer Intensive faculty</small></li>
-          <li><strong>Jazz</strong><span>Teen and elite</span><small>dwdCON 2026, rotation and subbing</small></li>
-          <li><strong>Strength, stretch and acro</strong><span>All ages</span><small>DWD ProSeries rotation faculty</small></li>
-          <li><strong>Contemporary and ballet</strong><span>Sub</span><small>Regular sub for competition-level classes</small></li>
-          <li><strong>Adult beginner class</strong><span>Adults</span><small>Started fall 2026</small></li>
-          <li><strong>Master classes</strong><span>Advanced and adult</span><small>Guest teacher in Preston, Idaho, summer 2025</small></li>
-          <li><strong>Privates and solo rehearsals</strong><span>By booking</span><small>Solo choreography, cleaning and technique</small></li>
-        </ul>
+        <h2 style="margin-bottom:12px" data-t="teach_h"></h2>
+        <p style="color:var(--ink-2);margin-bottom:28px" data-t="teach_p"></p>
+        <ul class="rows" id="teach-rows"></ul>
         <p style="margin-top:24px"><button class="link" id="watch-teach" style="border:0;cursor:pointer;font:inherit;font-weight:500">Watch me teach</button></p>
       </div>
       <img id="teach-img" src="images/photos/2026-07-tori-teaching-03.jpg" alt="Tori teaching across the floor at the DWD ProSeries summer intensive" loading="lazy">
@@ -118,8 +97,8 @@
     <div class="wrap">
       <div class="section-head">
         <div>
-          <h2>On stage.</h2>
-          <p>Before I set pieces, I danced them. Tokyo Sunrise, The Moment I Said It, Strange Thunder, Be Glad, One Eye Open and more, on the Celebration Arts Academy competition team.</p>
+          <h2 data-t="stage_h"></h2>
+          <p data-t="stage_p"></p>
         </div>
         <a class="link" href="media.html?f=dance">All photos</a>
       </div>
@@ -130,46 +109,32 @@
   <section class="section" id="costumes">
     <div class="wrap teach">
       <div>
-        <h2 style="margin-bottom:12px">The look comes with it.</h2>
-        <p style="color:var(--ink-2)">I design, source and rhinestone costumes, and I plan the hair, makeup and jewelry so a team reads as one. I am the costume lead for DWD ProSeries this season, and I built the costumes for Stepsisters Lament myself.</p>
+        <h2 style="margin-bottom:12px" data-t="costume_h"></h2>
+        <p style="color:var(--ink-2)" data-t="costume_p"></p>
       </div>
       <img id="costume-img" src="images/photos/stepsisters-costumes.jpg" alt="Stepsisters Lament on stage, in the costumes Tori built" loading="lazy">
     </div>
   </section>
 
-  <section class="section">
+  <section class="section" data-list="looking">
     <div class="wrap">
       <div class="looking">
-        <h2>What I'm looking for</h2>
-        <ul>
-          <li><strong>Competition choreography.</strong> Solos, duets, trios and groups for your team, especially musical theatre and jazz.</li>
-          <li><strong>Weekly classes.</strong> Technique and flexibility for the littles, jazz and musical theatre for the older kids.</li>
-          <li><strong>Subbing.</strong> Short notice is fine. I can step into contemporary, jazz, ballet and acro classes.</li>
-          <li><strong>Master classes and workshops.</strong> A combo your dancers will want to film.</li>
-          <li><strong>Costume design.</strong> A look for one piece, or a whole team.</li>
-        </ul>
+        <h2 data-t="looking_h"></h2>
+        <ul id="looking"></ul>
       </div>
     </div>
   </section>
 
-  <section class="section">
+  <section class="section" data-list="quotes">
     <div class="wrap">
-      <div class="quotes">
-        <blockquote><p>"You are basically a younger version of me, and second in command on all things."</p><cite>Dixon Bowles, Director, Dance With Dixon</cite></blockquote>
-        <blockquote><p>"Sadie Sadie is the best thing you've ever done. The intro?! Tony Award winning."</p><cite>Dixon Bowles, on her musical theatre combo</cite></blockquote>
-        <blockquote><p>"You're gonna choreograph on Broadway one day. I can feel it."</p><cite>Dixon Bowles</cite></blockquote>
-      </div>
+      <div class="quotes" id="quotes"></div>
     </div>
   </section>
 
   <section class="section" id="contact">
     <div class="wrap contact">
-      <h2>Let's make something for your dancers.</h2>
-      <div class="contact-lines">
-        <a class="btn" href="mailto:tori.ugalde04@gmail.com?subject=Working%20together">tori.ugalde04@gmail.com</a>
-        <a class="link" href="https://www.instagram.com/tori.udance/" target="_blank" rel="noopener">Instagram @tori.udance</a>
-        <a class="link" href="resume.html">Resume</a>
-      </div>
+      <h2 data-t="contact_h"></h2>
+      <div class="contact-lines" id="contact-lines"></div>
     </div>
   </section>
 </main>
@@ -182,7 +147,7 @@
 </footer>
 
 <script src="js/viewer.js"></script>
-<script src="js/plan-store.js"></script>
+<script src="js/site-content.js"></script>
 <script src="js/home.js"></script>
 </body>
 </html>

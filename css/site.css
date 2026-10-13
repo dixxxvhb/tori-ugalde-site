@@ -221,3 +221,7 @@ button { font: inherit; color: inherit; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
 }
+
+/* Content arrives from SiteContent; fade it in once instead of flashing empty slots. */
+main { transition: opacity .25s var(--ease); }
+body.loading main { opacity: 0; }

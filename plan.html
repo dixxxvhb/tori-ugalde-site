@@ -89,19 +89,6 @@
     <div id="tpls"></div>
 
     <div class="card">
-      <h2>Add a video to your site</h2>
-      <p class="sub" style="margin-bottom:0">Paste a YouTube link (unlisted is fine). It shows up in the Work section of your site.</p>
-      <form id="add-video">
-        <label class="field"><span>YouTube link</span><input name="url" inputmode="url" placeholder="https://youtu.be/..." required></label>
-        <label class="field"><span>Piece</span><input name="title" placeholder="Name of the piece"></label>
-        <label class="field"><span>What it is</span><input name="kind" placeholder="Contemporary group, 8 dancers"></label>
-        <label class="field"><span>Year</span><input name="year" placeholder="2026"></label>
-        <button class="btn" type="submit">Add to my site</button>
-      </form>
-      <ul class="vids" id="vids" style="margin-top:16px"></ul>
-    </div>
-
-    <div class="card">
       <h2>Add a studio</h2>
       <form id="add-studio">
         <label class="field"><span>Name</span><input name="name" required></label>
@@ -113,6 +100,12 @@
         <button class="btn ghost" type="submit">Add studio</button>
       </form>
     </div>
+  </section>
+
+  <section class="view" id="v-site" hidden>
+    <h1>My site</h1>
+    <p class="sub">Your words, your pieces, your resume. Edit anything; it is live in a few seconds.</p>
+    <div id="editor"></div>
   </section>
 
   <section class="view" id="v-goals" hidden>
@@ -132,6 +125,7 @@
     <button class="navtab" role="tab" data-tab="today">Today</button>
     <button class="navtab" role="tab" data-tab="studios">Studios</button>
     <button class="navtab" role="tab" data-tab="pitch">Pitch</button>
+    <button class="navtab" role="tab" data-tab="site">My site</button>
     <button class="navtab" role="tab" data-tab="goals">Dreams</button>
   </div>
 </nav>
@@ -141,6 +135,7 @@
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <script src="js/plan-store.js"></script>
+<script src="js/editor.js"></script>
 <script src="js/plan.js"></script>
 </body>
 </html>

@@ -13,8 +13,15 @@
   ];
   const seasonOf = d => { if (!d) return null; const [y, m] = d.split('-').map(Number); const s = m >= 8 ? y : y - 1; return s; };
   const base = (await (await fetch('data/media.json', { cache: 'no-cache' })).json()).items || [];
-  const extra = (await PlanStore.publicVideos()).map(v => ({ type: 'video', youtube: v.yt, title: v.title, kind: v.kind, year: v.year, tag: 'choreo', poster: `https://i.ytimg.com/vi/${v.yt}/hqdefault.jpg`, date: /^\d{4}$/.test(v.year || '') ? v.year + '-09-01' : null }));
-  const items = [...extra, ...base].map(i => Object.assign(i, { sn: seasonOf(i.date), season: seasonOf(i.date) ? `${seasonOf(i.date)}-${String(seasonOf(i.date) + 1).slice(2)}` : '' }))
+  const yearOf = w => { const y = (String(w.studio || '').match(/20\d\d/) || [])[0]; return y ? y + '-09-01' : null; };
+  // Pieces Tori added in her plan with a YouTube link join the archive.
+  const c = await SiteContent.load();
+  const known = new Set(base.filter(i => i.youtube).map(i => i.youtube));
+  const extra = c.works.filter(w => !w.hidden && SiteContent.ok.yt(w.yt) && !known.has(w.yt)).map(w => ({ type: 'video', youtube: w.yt, title: w.title, kind: w.style, tag: 'choreo', poster: `https://i.ytimg.com/vi/${w.yt}/hqdefault.jpg`, date: yearOf(w) }));
+  // A piece whose video Tori swapped to YouTube should not also show its old file.
+  const swapped = new Set(c.works.filter(w => SiteContent.ok.yt(w.yt)).map(w => String(w.title || '').toLowerCase()));
+  const keep = base.filter(i => !(i.src && i.tag === 'choreo' && swapped.has(String(i.title || '').toLowerCase())));
+  const items = [...extra, ...keep].map(i => Object.assign(i, { sn: seasonOf(i.date), season: seasonOf(i.date) ? `${seasonOf(i.date)}-${String(seasonOf(i.date) + 1).slice(2)}` : '' }))
     .sort((a, b) => (b.sn || 0) - (a.sn || 0) || (a.type === b.type ? String(b.date || '').localeCompare(String(a.date || '')) : a.type === 'video' ? -1 : 1));
 
   let current = 'all';

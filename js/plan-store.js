@@ -122,14 +122,8 @@ window.PlanStore = (function () {
     }
   }
 
-  // Public read of the videos Tori published from her plan. No token involved.
-  async function publicVideos() {
-    try { const r = await rpc('tu_public_get', {}); return Array.isArray(r) ? r : []; } catch (e) { return []; }
-  }
-
   return {
     init,
-    publicVideos,
     set,
     refresh,
     onChange(fn) { listeners.push(fn); },

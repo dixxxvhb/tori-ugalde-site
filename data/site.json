@@ -1,0 +1,265 @@
+{
+ "v": "1",
+ "text": {
+  "roles": "Choreographer · Teacher · Dancer · Orlando",
+  "lede": "I set competition pieces from solos to big groups, teach dancers from five years old to adult, and build the costumes too.",
+  "hat1_h": "Pieces that compete.",
+  "hat1_p": "Musical theatre, jazz, contemporary and lyrical, from a solo to a full company number. My duet Stepsisters Lament won the Judges Award, \"Broadway Bound,\" at StarQuest Nationals.",
+  "hat2_h": "From littles to adults.",
+  "hat2_p": "I lead Technique & Flexibility for ages 5 to 9 at DWD ProSeries, and teach jazz, musical theatre, acro and contemporary up through elite competition dancers and adult beginners.",
+  "hat3_h": "Raised on the competition stage.",
+  "hat3_p": "Years on the Celebration Arts Academy competition team, a scholarship at nationals, and a season with ASH The Company. Now I coach the dancers coming up behind me.",
+  "work_h": "The work.",
+  "work_p": "Competition pieces I choreographed, with the dancers who brought them to the stage.",
+  "teach_h": "In the classroom.",
+  "teach_p": "Every class gets warmed up properly, pushed honestly and sent home a little better. The littles leave with their splits closer. The big kids leave with a combo they want to film.",
+  "stage_h": "On stage.",
+  "stage_p": "Before I set pieces, I danced them. Tokyo Sunrise, The Moment I Said It, Strange Thunder, Be Glad, One Eye Open and more, on the Celebration Arts Academy competition team.",
+  "costume_h": "The look comes with it.",
+  "costume_p": "I design, source and rhinestone costumes, and I plan the hair, makeup and jewelry so a team reads as one. I am the costume lead for DWD ProSeries this season, and I built the costumes for Stepsisters Lament myself.",
+  "looking_h": "What I'm looking for",
+  "contact_h": "Let's make something for your dancers.",
+  "email": "tori.ugalde04@gmail.com",
+  "instagram": "tori.udance",
+  "city": "Orlando, Florida",
+  "resume_who": "Choreographer · Teacher · Dancer",
+  "references": "Dixon Bowles, Founder and Director, Dance With Dixon. Available on request."
+ },
+ "works": {
+  "stepsisters": {
+   "title": "Stepsisters Lament",
+   "style": "Musical theatre duet",
+   "studio": "Celebration Arts Academy, 2024-25",
+   "award": "Judges Award \"Broadway Bound\" and Platinum, StarQuest Nationals 2025",
+   "costumes": "Tori Ugalde",
+   "src": "media/video/choreo-stepsisters-lament-2024.mp4",
+   "poster": "media/posters/choreo-stepsisters-lament-2024.jpg",
+   "order": "1",
+   "resume": "yes"
+  },
+  "big-noise": {
+   "title": "Big Noise",
+   "style": "Large group",
+   "studio": "Celebration Arts Academy, 2025-26",
+   "src": "media/video/choreo-big-noise-2025.mp4",
+   "poster": "media/posters/choreo-big-noise-2025.jpg",
+   "order": "2",
+   "resume": "yes"
+  },
+  "i-am": {
+   "title": "I Am",
+   "style": "Contemporary solo",
+   "studio": "Celebration Arts Academy, 2025-26",
+   "src": "media/video/choreo-i-am-2025.mp4",
+   "poster": "media/posters/choreo-i-am-2025.jpg",
+   "order": "3",
+   "resume": "yes"
+  },
+  "just-for-now": {
+   "title": "Just For Now",
+   "style": "Group",
+   "studio": "Guest choreographer, Preston, Idaho, 2025",
+   "src": "media/video/choreo-just-for-now-2026.mp4",
+   "poster": "media/posters/choreo-just-for-now-2026.jpg",
+   "order": "4",
+   "resume": "yes"
+  },
+  "on-broadway": {
+   "title": "On Broadway",
+   "style": "Musical theatre group",
+   "studio": "DWD ProSeries open house, 2026",
+   "src": "media/video/choreo-on-broadway-showcase-2026.mp4",
+   "poster": "media/posters/choreo-on-broadway-showcase-2026.jpg",
+   "order": "5"
+  },
+  "jazz-combo": {
+   "title": "Jazz combo",
+   "style": "Class choreography",
+   "studio": "Her jazz class at dwdCON, 2026",
+   "src": "media/video/choreo-jazz-dwdcon-2026.mp4",
+   "poster": "media/posters/choreo-jazz-dwdcon-2026.jpg",
+   "order": "6"
+  },
+  "standing-there": {
+   "title": "Standing There",
+   "style": "Jazz solo",
+   "studio": "DWD ProSeries, 2026-27",
+   "award": "In rehearsal",
+   "order": "7",
+   "resume": "yes",
+   "hidden": "yes"
+  },
+  "chapel-of-love": {
+   "title": "Chapel of Love",
+   "style": "Musical theatre small group, with Dixon Bowles",
+   "studio": "DWD ProSeries, 2026-27",
+   "award": "In rehearsal",
+   "order": "8",
+   "resume": "yes",
+   "hidden": "yes"
+  }
+ },
+ "teach": {
+  "t1": {
+   "name": "Technique & Flexibility",
+   "ages": "Ages 5 to 9 · weekly",
+   "detail": "Lead teacher, DWD ProSeries, 2026-27 season",
+   "order": "1"
+  },
+  "t2": {
+   "name": "Musical theatre",
+   "ages": "All levels",
+   "detail": "DWD ProSeries rotation and Summer Intensive faculty",
+   "order": "2"
+  },
+  "t3": {
+   "name": "Jazz",
+   "ages": "Teen and elite",
+   "detail": "dwdCON 2026, rotation and subbing",
+   "order": "3"
+  },
+  "t4": {
+   "name": "Strength, stretch and acro",
+   "ages": "All ages",
+   "detail": "DWD ProSeries rotation faculty",
+   "order": "4"
+  },
+  "t5": {
+   "name": "Contemporary and ballet",
+   "ages": "Sub",
+   "detail": "Regular sub for competition-level classes",
+   "order": "5"
+  },
+  "t6": {
+   "name": "Adult beginner class",
+   "ages": "Adults",
+   "detail": "Started fall 2026",
+   "order": "6"
+  },
+  "t7": {
+   "name": "Master classes",
+   "ages": "Advanced and adult",
+   "detail": "Guest teacher in Preston, Idaho, summer 2025",
+   "order": "7"
+  },
+  "t8": {
+   "name": "Privates and solo rehearsals",
+   "ages": "By booking",
+   "detail": "Solo choreography, cleaning and technique",
+   "order": "8"
+  }
+ },
+ "looking": {
+  "l1": {
+   "title": "Competition choreography.",
+   "text": "Solos, duets, trios and groups for your team, especially musical theatre and jazz.",
+   "order": "1"
+  },
+  "l2": {
+   "title": "Weekly classes.",
+   "text": "Technique and flexibility for the littles, jazz and musical theatre for the older kids.",
+   "order": "2"
+  },
+  "l3": {
+   "title": "Subbing.",
+   "text": "Short notice is fine. I can step into contemporary, jazz, ballet and acro classes.",
+   "order": "3"
+  },
+  "l4": {
+   "title": "Master classes and workshops.",
+   "text": "A combo your dancers will want to film.",
+   "order": "4"
+  },
+  "l5": {
+   "title": "Costume design.",
+   "text": "A look for one piece, or a whole team.",
+   "order": "5"
+  }
+ },
+ "quotes": {
+  "q1": {
+   "quote": "You are basically a younger version of me, and second in command on all things.",
+   "who": "Dixon Bowles, Director, Dance With Dixon",
+   "order": "1"
+  },
+  "q2": {
+   "quote": "Sadie Sadie is the best thing you've ever done. The intro?! Tony Award winning.",
+   "who": "Dixon Bowles, on her musical theatre combo",
+   "order": "2"
+  },
+  "q3": {
+   "quote": "You're gonna choreograph on Broadway one day. I can feel it.",
+   "who": "Dixon Bowles",
+   "order": "3"
+  }
+ },
+ "jobs": {
+  "j1": {
+   "org": "Dance With Dixon ProSeries, Orlando",
+   "dates": "2026 to now",
+   "role": "Faculty, choreographer and costume lead",
+   "bullets": "Second in command to Director Dixon Bowles across the program.\nLead teacher, Technique & Flexibility (ages 5 to 9), weekly. Rotation faculty for strength and stretch, acro and musical theatre; teaches elite classes and subs.\nMusical theatre faculty, Summer Intensive 2026. Jazz faculty, dwdCON 2026.\nChoreographs and rehearses Season 1 competition solos and small groups.\nCostume lead for the Season 1 competition team: concepts, sourcing, hair, makeup and jewelry.",
+   "order": "1"
+  },
+  "j2": {
+   "org": "Celebration Arts Academy, Celebration",
+   "dates": "2023 to now",
+   "role": "Teacher, choreographer and competition assistant",
+   "bullets": "Teaching faculty for the 2026-27 season; sets competition pieces for the team.\nChoreographed competition pieces for the team, 2024 to 2026.\nAssisted the Competition Director with rehearsals, cleaning, music and backstage at regional and national events; ran competition days.\nTaught summer camps. Regular sub for contemporary, ballet, jazz and hip hop. Audition-day staff.",
+   "order": "2"
+  },
+  "j3": {
+   "org": "FLY Dance Competition",
+   "dates": "2024 to now",
+   "role": "Event staff on the national tour",
+   "bullets": "Backstage, awards, merchandise and load-out at events across the country.",
+   "order": "3"
+  },
+  "j4": {
+   "org": "Guest choreographer and master class teacher, Preston, Idaho",
+   "dates": "Summer 2025",
+   "bullets": "Set the competition group piece \"Just For Now\" for a studio team and taught the advanced and adult master class.",
+   "order": "4"
+  }
+ },
+ "training": {
+  "r1": {
+   "text": "Celebration Arts Academy competition team under Competition Director Dixon Bowles: solos, duets and groups in contemporary, lyrical, jazz and musical theatre.",
+   "order": "1"
+  },
+  "r2": {
+   "text": "ASH The Company, Season 14.",
+   "order": "2"
+  },
+  "r3": {
+   "text": "Faculty Pick Scholarship at nationals, 2024.",
+   "order": "3"
+  },
+  "r4": {
+   "text": "dwdCOLLECTIVE adult modern company.",
+   "order": "4"
+  }
+ },
+ "skills": {
+  "s1": {
+   "text": "Competition choreography, solo to large group, and re-staging on the spot.",
+   "order": "1"
+  },
+  "s2": {
+   "text": "Rehearsal direction, cleaning and competition-day management.",
+   "order": "2"
+  },
+  "s3": {
+   "text": "Costume design, sourcing and rhinestoning; team hair and makeup.",
+   "order": "3"
+  },
+  "s4": {
+   "text": "Flexibility and strength training for young dancers.",
+   "order": "4"
+  },
+  "s5": {
+   "text": "Teaching ages 5 through adult, beginner through elite.",
+   "order": "5"
+  }
+ }
+}
