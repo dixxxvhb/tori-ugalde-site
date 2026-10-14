@@ -378,15 +378,6 @@
    "tag": "candid"
   },
   {
-   "type": "photo",
-   "src": "images/photos/2026-07-tori-teaching-03.jpg",
-   "w": 1061,
-   "h": 1600,
-   "title": "Teaching across the floor, summer intensive 2026",
-   "date": "2026-07-31",
-   "tag": "teach"
-  },
-  {
    "type": "video",
    "src": "media/video/choreo-stepsisters-lament-2024.mp4",
    "poster": "media/posters/choreo-stepsisters-lament-2024.jpg",
@@ -502,6 +493,15 @@
    "kind": "Musical theatre solo",
    "date": "2024-03-01",
    "tag": "dance"
+  },
+  {
+   "type": "photo",
+   "src": "images/photos/2026-09-tori-teaching-class.jpg",
+   "w": 1080,
+   "h": 1075,
+   "title": "With her Technique & Flexibility class and John, Sept 2026",
+   "date": "2026-09-22",
+   "tag": "teach"
   }
  ]
 }
